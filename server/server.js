@@ -1,4 +1,5 @@
 import express from 'express' // import express
+import './config/dotenv.js'
 import budgieRouter from './routes/budgieRequester.js'
 
 const app = express() // create express app
